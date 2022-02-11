@@ -10,6 +10,7 @@ public class Hotel {
             PreparedStatement reserve = connection.prepareStatement( "SELECT")
         }catch (SQLException ex){
             ex.printStackTrace();
+            System.exit(1);
         }
         return 8;
         }
@@ -33,3 +34,4 @@ public class Hotel {
 
     }
 }
+
